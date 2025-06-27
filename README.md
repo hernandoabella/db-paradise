@@ -1,78 +1,100 @@
 # DB Paradise 🌸
-
 ## Table of Contents
+### Introduction  
+- [What is a Database](intro/what_is_a_database.md)  
+- [SQL vs NoSQL](intro/sql_vs_nosql.md)  
+- [Database Architecture](intro/db_architecture.md)  
 
-## INTRODUCTION  
-├── [what_is_a_database.md](00_intro/what_is_a_database.md)  
-├── [sql_vs_nosql.md](00_intro/sql_vs_nosql.md)  
-└── [db_architecture.md](00_intro/db_architecture.md)  
+### Types of Databases  
+- [Relational](types/relational.md)  
+- [NoSQL](types/nosql.md)  
+- [Graph](types/graph.md)  
+- [Time Series](types/time_series.md)  
+- [NewSQL](types/newsql.md)  
 
-## TYPES OF DATABASES  
-├── [relational.md](01_types/relational.md)  
-├── [nosql.md](01_types/nosql.md)  
-├── [graph.md](01_types/graph.md)  
-├── [time_series.md](01_types/time_series.md)  
-└── [newsql.md](01_types/newsql.md)  
+### SQL Fundamentals  
+- [Basic Syntax](sql/basic_syntax.md)  
+- [Common Queries](sql/common_queries.md)  
+- [Joins](sql/joins.md)  
+- [GROUP BY and HAVING](sql/groupby_having.md)  
+- [Useful Functions](sql/useful_functions.md)  
 
-## SQL FUNDAMENTALS  
-├── [basic_syntax.md](02_sql/basic_syntax.md)  
-├── [common_queries.md](02_sql/common_queries.md)  
-├── [joins.md](02_sql/joins.md)  
-├── [groupby_having.md](02_sql/groupby_having.md)  
-└── [useful_functions.md](02_sql/useful_functions.md)  
+### Database Design  
+- [Normalization](design/normalization.md)  
+- [Primary and Foreign Keys](design/primary_foreign_keys.md)  
+- [ER Models](design/er_models.md)  
+- [Relationships](design/relationships.md)  
 
-## DATABASE DESIGN  
-├── [normalization.md](03_design/normalization.md)  
-├── [primary_foreign_keys.md](03_design/primary_foreign_keys.md)  
-├── [er_models.md](03_design/er_models.md)  
-└── [relationships.md](03_design/relationships.md)  
+### Performance & Scaling  
+- [Indexing](optimization/indexing.md)  
+- [Transactions](optimization/transactions.md)  
+- [Views and Procedures](optimization/views_and_procedures.md)  
+- [Scaling Strategies](optimization/scaling_strategies.md)  
+- [Replication](optimization/replication.md)  
+- [Partitioning](optimization/partitioning.md)  
 
-## PERFORMANCE & SCALING  
-├── [indexing.md](04_optimization/indexing.md)  
-├── [transactions.md](04_optimization/transactions.md)  
-├── [views_and_procedures.md](04_optimization/views_and_procedures.md)  
-├── [scaling_strategies.md](04_optimization/scaling_strategies.md)  
-├── [replication.md](04_optimization/replication.md)  
-└── [partitioning.md](04_optimization/partitioning.md)  
+### Database Security  
+- [SQL Injection](security/sql_injection.md)  
+- [Users and Roles](security/users_and_roles.md)  
+- [Backups](security/backups.md)  
+- [Encryption](security/encryption.md)  
 
-## DATABASE SECURITY  
-├── [sql_injection.md](05_security/sql_injection.md)  
-├── [users_and_roles.md](05_security/users_and_roles.md)  
-├── [backups.md](05_security/backups.md)  
-└── [encryption.md](05_security/encryption.md)  
+### ORMs & Frameworks  
+- [SQLAlchemy](orms/sqlalchemy.md)  
+- [Django ORM](orms/django_orm.md)  
+- [Prisma](orms/prisma.md)  
+- [Sequelize](orms/sequelize.md)  
+- [Eloquent](orms/eloquent.md)  
 
-## ORMs & FRAMEWORKS  
-├── [sqlalchemy.md](06_orms/sqlalchemy.md)  
-├── [django_orm.md](06_orms/django_orm.md)  
-├── [prisma.md](06_orms/prisma.md)  
-├── [sequelize.md](06_orms/sequelize.md)  
-└── [eloquent.md](06_orms/eloquent.md)  
+### Cloud Databases  
+- [Firebase](cloud/firebase.md)  
+- [Supabase](cloud/supabase.md)  
+- [PlanetScale](cloud/planetscale.md)  
+- [AWS RDS](cloud/aws_rds.md)  
 
-## CLOUD DATABASES  
-├── [firebase.md](07_cloud/firebase.md)  
-├── [supabase.md](07_cloud/supabase.md)  
-├── [planetscale.md](07_cloud/planetscale.md)  
-└── [aws_rds.md](07_cloud/aws_rds.md)  
+### Real Projects  
+- [Blog Schema (Postgres)](projects/blog_schema_postgres.sql)  
+- [E-commerce Schema (MySQL)](projects/ecommerce_schema_mysql.sql)  
+- [Todo CRUD (SQLite, Python)](projects/todo_crud_sqlite.py)  
+- [Mongo CRUD (JavaScript)](projects/mongo_crud.js)  
+- [Realtime Chat (Firebase, JavaScript)](projects/realtime_chat_firebase.js)  
 
-## REAL PROJECTS  
-├── [blog_schema_postgres.sql](08_projects/blog_schema_postgres.sql)  
-├── [ecommerce_schema_mysql.sql](08_projects/ecommerce_schema_mysql.sql)  
-├── [todo_crud_sqlite.py](08_projects/todo_crud_sqlite.py)  
-├── [mongo_crud.js](08_projects/mongo_crud.js)  
-└── [realtime_chat_firebase.js](08_projects/realtime_chat_firebase.js)  
+### Cheatsheets  
+- [SQL Commands](cheatsheets/sql_commands.md)  
+- [Joins Visual Guide](cheatsheets/joins_visual.md)  
+- [Design Checklist](cheatsheets/design_checklist.md)  
+- [Security Checklist](cheatsheets/security_checklist.md)  
 
-## CHEATSHEETS  
-├── [sql_commands.md](09_cheatsheets/sql_commands.md)  
-├── [joins_visual.md](09_cheatsheets/joins_visual.md)  
-├── [design_checklist.md](09_cheatsheets/design_checklist.md)  
-└── [security_checklist.md](09_cheatsheets/security_checklist.md)  
+### AI-Powered Queries (Bonus)  
+- [SQL Prompts](ai_queries/sql_prompts.md)  
+- [Schema Generation](ai_queries/schema_generation.md)  
+- [Query Debugging](ai_queries/query_debugging.md)  
 
-## AI-POWERED QUERIES (BONUS)  
-├── [sql_prompts.md](0A_ai_queries/sql_prompts.md)  
-├── [schema_generation.md](0A_ai_queries/schema_generation.md)  
-└── [query_debugging.md](0A_ai_queries/query_debugging.md)  
+### Flashcards (Bonus)  
+- [Basics](flashcards/basics.txt)  
+- [Joins](flashcards/joins.txt)  
+- [Common Commands](flashcards/common_commands.txt)
 
-## FLASHCARDS (BONUS)  
-├── [basics.txt](0B_flashcards/basics.txt)  
-├── [joins.txt](0B_flashcards/joins.txt)  
-└── [common_commands.txt](0B_flashcards/common_commands.txt)  
+- ---
+
+### [![Book Title 1](https://images-na.ssl-images-amazon.com/images/I/51bookCoverImage1.jpg)](https://www.amazon.com/dp/BOOKASIN1)  
+**Book Title 1**  
+*Author Name*  
+_A concise, powerful guide that dives into..._  
+[Buy on Amazon](https://www.amazon.com/dp/BOOKASIN1)  
+
+### [![Book Title 2](https://images-na.ssl-images-amazon.com/images/I/52bookCoverImage2.jpg)](https://www.amazon.com/dp/BOOKASIN2)  
+**Book Title 2**  
+*Author Name*  
+_A transformative book about..._  
+[Buy on Amazon](https://www.amazon.com/dp/BOOKASIN2)  
+
+### [![Book Title 3](https://images-na.ssl-images-amazon.com/images/I/53bookCoverImage3.jpg)](https://www.amazon.com/dp/BOOKASIN3)  
+**Book Title 3**  
+*Author Name*  
+_Deep insights into..._  
+[Buy on Amazon](https://www.amazon.com/dp/BOOKASIN3)  
+
+--- 
+
+Made with by *@hernandoabella*
